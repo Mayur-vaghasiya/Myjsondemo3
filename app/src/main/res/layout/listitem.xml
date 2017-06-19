@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id :"
+        android:textColor="#093634"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblid"
+        android:textColor="#0E6251"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/lblname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:layout_below="@+id/lblid"
+        android:textColor="#093634"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblname"
+        android:layout_below="@+id/txtid"
+        android:textColor="#0E6251"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/lblsalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblname"
+        android:text="Salary :"
+        android:textColor="#093634"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/txtsalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_toRightOf="@+id/lblsalary"
+        android:textColor="#0E6251"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/lblmeried"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblsalary"
+        android:text="Married  :"
+        android:textColor="#093634"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/txtmarried"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsalary"
+        android:layout_toRightOf="@+id/lblmeried"
+        android:textColor="#0E6251"
+        android:layout_margin="2dp"/>
+</RelativeLayout>

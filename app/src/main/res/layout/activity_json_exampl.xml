@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.myjsondemo.JsonExamplActivity">
+
+    <TextView
+        android:id="@+id/lblname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name  : "
+        android:textColor="#093634" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblname"
+        android:textColor="#0E6251" />
+
+    <TextView
+        android:id="@+id/lblauther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblname"
+        android:text="Auther  : "
+        android:textColor="#093634" />
+
+    <TextView
+        android:id="@+id/txtauther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_toRightOf="@+id/lblauther"
+        android:textColor="#0E6251" />
+
+    <TextView
+        android:id="@+id/lblcompanyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblauther"
+        android:text="Companylist  : "
+        android:textColor="#936234" />
+
+
+    <TextView
+        android:id="@+id/lblcompanyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblcompanyList"
+        android:text="Company  : "
+        android:textColor="#093634" />
+
+    <TextView
+        android:id="@+id/txtcompnyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblcompanyList"
+        android:layout_toRightOf="@+id/lblcompanyname"
+        android:textColor="#0E6251" />
+
+
+    <TextView
+        android:id="@+id/lblcompanyname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblcompanyname"
+        android:text="Company1  : "
+        android:textColor="#093634" />
+
+    <TextView
+        android:id="@+id/txtcompnyname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblcompanyname"
+        android:layout_toRightOf="@+id/lblcompanyname1"
+        android:textColor="#0E6251" />
+</RelativeLayout>

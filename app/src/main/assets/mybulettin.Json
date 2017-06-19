@@ -1,0 +1,55 @@
+﻿{
+  "project_info": {
+    "project_id": "my-bulletin-1114",
+    "project_number": "15289510316",
+    "name": "My Bulletin"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15289510316:android:d28b292c8a5cd64c",
+        "client_id": "android:peacocktech.in.mybulletin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "peacocktech.in.mybulletin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15289510316-6invur0lmrkctos04raof0gf9csicitp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "peacocktech.in.mybulletin",
+            "certificate_hash": "C54F2958287D89E21D16CE1089279A82BC616E7B"
+          }
+        },
+        {
+          "client_id": "15289510316-a4bri9ppielr31fu1je2is2v67vaib6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

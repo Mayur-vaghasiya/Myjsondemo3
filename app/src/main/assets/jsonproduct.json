@@ -1,0 +1,32 @@
+{
+	"Products": [{
+		"Name": "yy",
+		"ProductID": "1fe4d095-5e26-44e0-a12c-de3fd0c2de59",
+		"PackageID": "89279d2c-22aa-43c9-8455-42da786f3a3f",
+		"ImageName": "1fe4d095-5e26-44e0-a12c-de3fd0c2de59",
+		"SKU": "hff",
+		"LastModified": "2016-04-06T15:22:20.383",
+		"Price": 0.52,
+		"CategoryIDs": ["2c25479b-b2d7-45fb-89d8-0525cddcf40c"]
+	}, {
+		"Name": "gfhg334",
+		"ProductID": "f4347a01-0ed1-40b6-88be-dbedd6bb2838",
+		"PackageID": "96995220-1031-4903-a8cf-b542c8be1746",
+		"ImageName": "f4347a01-0ed1-40b6-88be-dbedd6bb2838",
+		"SKU": "454",
+		"LastModified": "2016-04-06T15:11:55.883",
+		"Price": 54.54,
+		"CategoryIDs": ["f9fe2802-f9f8-443e-bb75-935736985899"]
+	}, {
+		"Name": "ab do",
+		"ProductID": "6cec3f8c-fd24-4124-a96a-66974732ecce",
+		"PackageID": "A7D9CF48-2C68-476A-B101-053E0D6B5951",
+		"ImageName": "6CEC3F8C-FD24-4124-A96A-66974732ECCE.png",
+		"SKU": "11",
+		"LastModified": "2016-04-06T15:07:01.093",
+		"Price": 1.11,
+		"CategoryIDs": ["f9fe2802-f9f8-443e-bb75-935736985899", "2c25479b-b2d7-45fb-89d8-0525cddcf40c"]
+	}],
+	"Status": "OK",
+	"StatusMsg": "Success"
+}

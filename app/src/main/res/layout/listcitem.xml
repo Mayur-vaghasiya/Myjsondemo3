@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblproj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="project"
+            android:textColor="#EA4C0A" />
+
+        <TextView
+            android:id="@+id/lblproject_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblproj"
+            android:layout_marginLeft="2dp"
+            android:text="project_info"
+            android:textColor="#62142B" />
+
+        <TextView
+            android:id="@+id/lblproject_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblproject_info"
+            android:layout_marginLeft="10dp"
+            android:text="project_id :"
+            android:textColor="#093634" />
+
+        <TextView
+            android:id="@+id/txtpid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblproject_info"
+            android:layout_toRightOf="@+id/lblproject_id"
+            android:text="1"
+            android:textColor="#196F3D" />
+
+        <TextView
+            android:id="@+id/lblproj_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblproject_id"
+            android:layout_marginLeft="10dp"
+            android:text="project_number :"
+            android:textColor="#093634" />
+
+        <TextView
+            android:id="@+id/txtproj_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpid"
+            android:layout_toRightOf="@+id/lblproj_number"
+            android:text="2"
+            android:textColor="#196F3D" />
+
+        <TextView
+            android:id="@+id/lblname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblproj_number"
+            android:layout_marginLeft="10dp"
+            android:text="name :"
+            android:textColor="#093634" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtproj_number"
+            android:layout_toRightOf="@+id/lblname"
+            android:text="3"
+            android:textColor="#196F3D" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl1">
+
+            <TextView
+                android:id="@+id/lblclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="client  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#EA4C0A" />
+
+            <TextView
+                android:id="@+id/lblclient_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient"
+                android:layout_marginBottom="10dp"
+                android:text="client_info  :"
+                android:textColor="#62142B" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/lblmobilesdk_app_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_info"
+                android:layout_marginLeft="10dp"
+                android:text="mobile_sdk_app_id :"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtmobile_sdk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_info"
+                android:layout_toRightOf="@+id/lblmobilesdk_app_id"
+                android:layout_marginBottom="10dp"
+                android:text="1"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblclient_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblmobilesdk_app_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="client_id :"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtclient_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmobile_sdk_id"
+                android:layout_toRightOf="@+id/lblclient_id"
+                android:text="2"
+                android:textColor="#196F3D"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblclient_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="client_type"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtclient_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtclient_id"
+                android:layout_toRightOf="@+id/lblclient_type"
+                android:text="3"
+                android:textColor="#196F3D"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblandroid_client_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_type"
+                android:text="android_client_info"
+                android:layout_marginBottom="10dp"
+                android:textColor="#D98880" />
+
+            <TextView
+                android:id="@+id/lblpackage_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblandroid_client_info"
+                android:layout_marginLeft="10dp"
+                android:text="package_name  :"
+                android:textColor="#093634"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txtpackage_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblandroid_client_info"
+                android:layout_toRightOf="@+id/lblpackage_name"
+                android:text="4"
+                android:textColor="#196F3D"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lbloauth_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oauth_client  :"
+                android:layout_below="@+id/txtpackage_name"
+                android:textColor="#62142B"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblclient_id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbloauth_client"
+                android:layout_marginLeft="10dp"
+                android:text="client_id  :"
+                android:textColor="#093634"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/txtclient_id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbloauth_client"
+                android:layout_toRightOf="@+id/lblclient_id1"
+                android:text="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblclient_type1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/lblclient_id1"
+                android:layout_marginBottom="10dp"
+                android:text="client_type  :"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtclient_type1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lblclient_type1"
+                android:layout_below="@+id/txtclient_id1"
+                android:text="2"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblandroid_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_type1"
+                android:text="android_info  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#D98880" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/lblpackage_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblandroid_info"
+                android:layout_marginLeft="10dp"
+                android:text="package_name  :"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtpackage_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblandroid_info"
+                android:layout_toRightOf="@+id/lblpackage_name1"
+                android:text="3"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblcertificate_hash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblpackage_name1"
+                android:layout_marginLeft="10dp"
+                android:text="certificate_hash  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtcertificate_hash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpackage_name1"
+                android:layout_toRightOf="@+id/lblcertificate_hash"
+                android:layout_marginBottom="10dp"
+                android:text="4"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblclient_id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblcertificate_hash"
+                android:layout_marginLeft="10dp"
+                android:text="client_id  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtclient_id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcertificate_hash"
+                android:layout_toRightOf="@+id/lblclient_id2"
+                android:text="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblclient_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_id2"
+                android:layout_marginLeft="10dp"
+                android:text="client_type  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtclient_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtclient_id2"
+                android:layout_toRightOf="@+id/lblclient_type2"
+                android:text="2"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblservices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblclient_type2"
+                android:text="services  :"
+                android:textColor="#62142B" />
+
+            <TextView
+                android:id="@+id/lblanalytics_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblservices"
+                android:layout_marginLeft="8dp"
+                android:text="analytics_service  :"
+                android:textColor="#62142B" />
+
+            <TextView
+                android:id="@+id/lblstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblanalytics_service"
+                android:layout_marginLeft="10dp"
+                android:text="status  :"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblanalytics_service"
+                android:layout_toRightOf="@+id/lblstatus"
+                android:text="1"
+                android:textColor="#196F3D"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblcloud_messaging_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblstatus"
+                android:layout_marginLeft="8dp"
+                android:text="cloud_messaging_service  :"
+                android:textColor="#62142B"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblstatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblcloud_messaging_service"
+                android:layout_marginLeft="10dp"
+                android:text="status  :"
+                android:textColor="#093634"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/txtstatus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblcloud_messaging_service"
+                android:layout_toRightOf="@+id/lblstatus1"
+                android:text="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+
+            <TextView
+                android:id="@+id/lblapns_config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblstatus1"
+                android:layout_marginLeft="10dp"
+                android:text="apns_config  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtapns_config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstatus1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/lblapns_config"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblappinvite_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/lblapns_config"
+                android:text="appinvite_service  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#62142B" />
+
+            <TextView
+                android:id="@+id/lblstatus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblappinvite_service"
+                android:layout_marginLeft="10dp"
+                android:text="status  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtstatus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblappinvite_service"
+                android:layout_toRightOf="@+id/lblstatus2"
+                android:text="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblother_platform_oauth_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/lblstatus2"
+                android:text="apns_config  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtother_platform_oauth_client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/txtstatus2"
+                android:layout_toRightOf="@+id/lblother_platform_oauth_client"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblgoogle_signin_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="google_signin_service  :"
+                android:textColor="#62142B"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/lblother_platform_oauth_client"/>
+
+            <TextView
+                android:id="@+id/lblstatus3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblgoogle_signin_service"
+                android:layout_marginLeft="10dp"
+                android:text="status  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtstatus3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblgoogle_signin_service"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/lblstatus3"
+                android:text="2"
+                android:textColor="#196F3D" />
+
+
+            <TextView
+                android:id="@+id/lblads_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ads_service  :"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/lblstatus3"
+                android:textColor="#62142B" />
+
+            <TextView
+                android:id="@+id/lblstatus4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblads_service"
+                android:layout_marginLeft="10dp"
+                android:text="status  :"
+                android:layout_marginBottom="10dp"
+                android:textColor="#093634" />
+
+            <TextView
+                android:id="@+id/txtstatus4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblads_service"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/lblstatus4"
+                android:text="1"
+                android:layout_marginBottom="10dp"
+                android:textColor="#196F3D" />
+
+            <TextView
+                android:id="@+id/lblclient_info1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="client_info  :"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/lblstatus4"
+                android:textColor="#093634" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl2">
+
+            <TextView
+                android:id="@+id/lblARTIFACT_VERSION"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARTIFACT_VERSION  :"
+                android:textColor="#093634"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/txtARTIFACT_VERSION"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lblARTIFACT_VERSION"
+                android:textColor="#196F3D"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>

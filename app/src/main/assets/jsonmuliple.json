@@ -1,0 +1,58 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Sachin",
+      "salary": 56000,
+      "married": true
+    },
+    {
+      "id": 2,
+      "name": "Mayur",
+      "salary": 100000,
+      "married": false
+    },
+    {
+      "id": 3,
+      "name": "Sanjay",
+      "salary": 58555,
+      "married": false
+    },
+    {
+      "id": 4,
+      "name": "Vipul",
+      "salary": 700000,
+      "married": true
+    },
+    {
+      "id": 5,
+      "name": "Cyrus mistri",
+      "salary": 700000,
+      "married": true
+    },
+    {
+      "id": 6,
+      "name": "Sharapova",
+      "salary": 700000,
+      "married": true
+    },
+    {
+      "id": 7,
+      "name": "Brandi cyrus",
+      "salary": 700000,
+      "married": true
+    },
+    {
+      "id": 8,
+      "name": "Mia khalifa",
+      "salary": 700000,
+      "married": true
+    },
+    {
+      "id": 9,
+      "name": "Miley cyrus",
+      "salary": 700000,
+      "married": true
+    }
+  ]
+}
